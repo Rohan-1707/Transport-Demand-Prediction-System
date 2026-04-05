@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+*.db
+*.sqlite3
+venv/
+.venv/
+.pytest_cache/
+
+# Models (large binary files — commit intentionally)
+backend/models/*.pkl
+
+# Node
+node_modules/
+dist/
+.DS_Store
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Docker
+*.override.yml
